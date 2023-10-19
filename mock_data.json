@@ -1,0 +1,56 @@
+{
+    "patients": [
+      {
+        "id": "P001",
+        "name": "John Doe",
+        "age": 45,
+        "gender": "Male",
+        "diagnosis": "Hypertension",
+        "vitals": {
+          "heart_rate": 75,
+          "blood_pressure": "120/80",
+          "temperature": 98.6
+        },
+        "lab_results": {
+          "cholesterol": 185,
+          "glucose": 90,
+          "hemoglobin": 14.5
+        }
+      },
+      {
+        "id": "P002",
+        "name": "Jane Smith",
+        "age": 32,
+        "gender": "Female",
+        "diagnosis": "Diabetes",
+        "vitals": {
+          "heart_rate": 80,
+          "blood_pressure": "130/85",
+          "temperature": 99.0
+        },
+        "lab_results": {
+          "cholesterol": 210,
+          "glucose": 160,
+          "hemoglobin": 13.0
+        }
+      },
+      {
+        "id": "P003",
+        "name": "Michael Johnson",
+        "age": 60,
+        "gender": "Male",
+        "diagnosis": "Asthma",
+        "vitals": {
+          "heart_rate": 70,
+          "blood_pressure": "140/90",
+          "temperature": 98.8
+        },
+        "lab_results": {
+          "cholesterol": 170,
+          "glucose": 100,
+          "hemoglobin": 15.0
+        }
+      }
+    ]
+  }
+  
