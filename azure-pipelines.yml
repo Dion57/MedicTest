@@ -8,9 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-steps:
-- script: echo 'This is where you can install Python and run your Python scripts'
-  displayName: 'Run Python Scripts'
+
 strategy:
   matrix:
     Python27:
@@ -21,7 +19,6 @@ strategy:
       python.version: '3.6'
     Python37:
       python.version: '3.7'
-
 steps:
 - task: UsePythonVersion@0
   inputs:
