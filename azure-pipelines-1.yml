@@ -7,9 +7,9 @@ trigger:
 - main
 
 pool:
-  name: az400m03l03a-pool
+  name: MedicTest-Pool
   demands:
-  - Agent.Name -equals az400m03-vm0
+  - Agent.Name -equals MedicTest-new
 strategy:
   matrix:
     Python27:
