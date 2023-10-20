@@ -9,7 +9,7 @@ trigger:
 pool:
   name: MedicTest-pool
   demands:
-  - Agent.Name -equals MedicTest-VM
+  - Agent.Name -equals MedicTest-new
 
 steps:
 - script: echo 'This is where you can install Python and run your Python scripts'
