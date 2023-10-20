@@ -7,7 +7,9 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: MedicTest-pool
+  demands:
+  - Agent.Name -equal MedicTest=VM
 
 steps:
 - script: echo 'This is where you can install Python and run your Python scripts'
