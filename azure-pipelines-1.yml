@@ -39,3 +39,10 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- script: |
+    python --version
+    pip install -r requirements.txt  
+    python data_aggregator.py  
+    python alerts_generator.py
+  displayName: 'Run Python Scripts'
